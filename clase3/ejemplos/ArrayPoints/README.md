@@ -9,7 +9,7 @@ Claro, aquí tienes el README.md actualizado para reflejar la ejecución en un I
 
 README
 Descripción del Proyecto
-Este proyecto contiene un conjunto de clases de Java diseñadas para ilustrar los principios fundamentales de la Programación Orientada a Objetos. Se implementan las clases Point y Path para representar coordenadas geométricas y trayectorias. 🗺️
+Este proyecto contiene un conjunto de clases de Java diseñadas para ilustrar los principios fundamentales de la Programación Orientada a Objetos. Se implementan las clases Point y Path para representar coordenadas geométricas y trayectorias.
 
 El objetivo es proporcionar un ejemplo claro sobre la definición de clases, la interacción entre objetos y el manejo de colecciones de datos. Específicamente, la clase Path utiliza un array de objetos Point para almacenar la secuencia de coordenadas que conforman una ruta, demostrando así el uso de esta estructura de datos fundamental.
 
