@@ -1,0 +1,37 @@
+@startuml
+
+class Point {
+  - x: double
+  - y: double
+  + Point(x: double, y: double)
+  + Point()
+  + Point(p: Point)
+  + getX(): double
+  + getY(): double
+  + setX(x: double): void
+  + setY(y: double): void
+  + distanceTo(x: double, y: double): double
+  + distanceTo(P: Point): double
+  + distanceToOrigin(): double
+  + toString(): String
+}
+
+class Path {
+  - points: Point[]
+  - n: int
+  - actualIndex: int
+  + Path()
+  + Path(n: int)
+  + Path(points: Point[])
+  + getAvailableCoords(): int
+  + getCoords(): Point[]
+  + setPoints(points: Point[]): void
+  + addCoord(x: double, y: double): void
+  + setCoord(index: int, x: double, y: double): void
+  + getTotalDistance(): double
+  + printPath(): void
+}
+
+Path "1" o-- "0..*" Point
+
+@enduml
