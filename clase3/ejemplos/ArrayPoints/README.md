@@ -4,15 +4,6 @@ Este proyecto contiene un conjunto de clases de Java diseñadas para ilustrar lo
 
 El objetivo es proporcionar un ejemplo claro sobre la definición de clases, la interacción entre objetos y el manejo de colecciones de datos. Específicamente, la clase `Path` utiliza un array de objetos `Point` para almacenar la secuencia de coordenadas que conforman una ruta, demostrando así el uso de esta estructura de datos fundamental.
 
-
-Claro, aquí tienes el README.md actualizado para reflejar la ejecución en un IDE y mencionar el uso de arrays.
-
-README
-Descripción del Proyecto
-Este proyecto contiene un conjunto de clases de Java diseñadas para ilustrar los principios fundamentales de la Programación Orientada a Objetos. Se implementan las clases Point y Path para representar coordenadas geométricas y trayectorias.
-
-El objetivo es proporcionar un ejemplo claro sobre la definición de clases, la interacción entre objetos y el manejo de colecciones de datos. Específicamente, la clase Path utiliza un array de objetos Point para almacenar la secuencia de coordenadas que conforman una ruta, demostrando así el uso de esta estructura de datos fundamental.
-
 ## Contenido del proyecto
 
 El proyecto se compone de los siguientes archivos fuente (`.java`):
