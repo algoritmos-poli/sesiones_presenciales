@@ -1,16 +1,18 @@
-# Descripción del Proyecto
+# Ejemplo de uso Arrays
+
+## Descripción 
 
 Este proyecto contiene un conjunto de clases de Java diseñadas para ilustrar los principios fundamentales de la Programación Orientada a Objetos. Se implementan las clases `Point` y `Path` para representar coordenadas geométricas y trayectorias.
 
 El objetivo es proporcionar un ejemplo claro sobre la definición de clases, la interacción entre objetos y el manejo de colecciones de datos. Específicamente, la clase `Path` utiliza un array de objetos `Point` para almacenar la secuencia de coordenadas que conforman una ruta, demostrando así el uso de esta estructura de datos fundamental.
 
-## Contenido del proyecto
+## Contenido 
 
 El proyecto se compone de los siguientes archivos fuente (`.java`):
-* **`Point.java`**: Define una clase para representar un punto en un plano bidimensional (x, y). Incluye métodos para calcular distancias.
-* **`Path.java`**: Define una clase para representar una trayectoria como una secuencia ordenada de objetos `Point` almacenados en un array. Incluye métodos para agregar coordenadas y calcular la longitud total del camino.
-* **`TestPoint.java`**: Clase ejecutable (`main`) que demuestra la creación y uso de la clase `Point`.
-* **`TestPath.java`**: Clase ejecutable (`main`) que demuestra la creación y uso de la clase `Path`.
+* [**`Point.java`**](Point.java): Define una clase para representar un punto en un plano bidimensional $(x, y)$. Incluye métodos para calcular distancias.
+* [**`Path.java`**](Path.java): Define una clase para representar una trayectoria como una secuencia ordenada de objetos `Point` almacenados en un array. Incluye métodos para agregar coordenadas y calcular la longitud total del camino.
+* [**`TestPoint.java`**](TestPoint.java): Clase ejecutable (`main`) que demuestra la creación y uso de la clase `Point`.
+* [**`TestPath.java`**](TestPath.java): Clase ejecutable (`main`) que demuestra la creación y uso de la clase `Path`.
 
 Para dar una idea del codigo, en el siguiente diagrama se muestra el diagrama UML para las clases `Point.java` y `Path.java`:
 
