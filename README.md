@@ -15,3 +15,12 @@ La siguiente tabla muestra el contenido de cada clase con los respectivos recurs
 || 2 | 20/08/2025 | Laboratorio |Introducción a la POO|Codigos POO [[link]](clase1/)|---|
 |4| 3 | 26/08/2025 |Clase|Arrays en Java (Parte 1)|Códigos Arrays (Parte 1) [[link]](clase2/)|Laboratorio 1 [[link]](https://github.com/algoritmos-poli/lab1-repaso_POO)|
 || 4 | 27/08/2025 | Laboratorio|Arrays en Java (Parte 2)|Códigos Arrays (Parte 3) [[link]](clase3/)|Laboratorio 2 [[link]](https://github.com/algoritmos-poli/lab2-arrays)|
+
+
+## Referencias
+
+* https://courses.cs.washington.edu/courses/cse142/15sp/
+* https://www.buildingjavaprograms.com/
+* https://courses.cs.washington.edu/courses/cse142/22su/
+* https://courses.cs.washington.edu/courses/cse143/23sp/
+* https://courses.cs.washington.edu/courses/cse142/21su/

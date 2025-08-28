@@ -12,15 +12,6 @@
 
 ## Ejemplos 
 
-En cada uno de los directorios se encuentran varios ejemplos. Analice el codigo, ejecutelo en un IDE y haga las pruebas necesarias para entenderlo. A continuación se muestran la lista de directorios para facil acceso:
-* **Ejemplos java**:
-  * [charge_java](charge_java/)
-  * [complex_java](complex_java/)
-* **Ejemplos python**:
-  * [charge__python](charge__python/)
-  * [complex__python](complex__python/)
-* **Ejemplos en ambos lenguajes**:
-  * [ambos](ambos/)
 
 > [!Important]
 > Aun falta documentar los ejemplos
