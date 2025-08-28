@@ -1,0 +1,17 @@
+@startuml
+class Complex {
+    - re: double
+    - im: double
+    --
+    + Complex(re: double, im: double)
+    + Complex()
+    + re(): double
+    + im(): double
+    + conjugate(): Complex
+    + add(other: Complex): Complex
+    + multiply(other: Complex): Complex
+    + equals(obj: Object): boolean
+    + abs(): double
+    + toString(): String
+  }
+@enduml

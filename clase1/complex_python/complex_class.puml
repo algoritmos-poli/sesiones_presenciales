@@ -1,0 +1,18 @@
+
+@startuml
+class Complex {
+    - _re: float
+    - _im: float
+    --
+    + __init__(re: float = 0.0, im: float = 0.0)
+    + re(): float
+    + im(): float
+    + conjugate(): Complex
+    + __add__(other: Complex): Complex
+    + __mul__(other: Complex): Complex
+    + __eq__(other: Complex): bool
+    + __ne__(other: Complex): bool
+    + __abs__(): float
+    + __str__(): str
+}
+@enduml

@@ -1,0 +1,11 @@
+@startuml
+class Charge {
+  - rx: double {readOnly}
+  - ry: double {readOnly}
+  - q: double {readOnly}
+  --
+  + Charge(x0: double, y0: double, q0: double)
+  + potentialAt(x: double, y: double): double
+  + toString(): String
+}
+@enduml

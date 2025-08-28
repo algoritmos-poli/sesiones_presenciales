@@ -1,0 +1,11 @@
+@startuml
+class Charge {
+    - _rx: float
+    - _ry: float
+    - _q: float
+    --
+    + __init__(x0: float, y0: float, q0: float)
+    + potentialAt(x: float, y: float): float
+    + __str__(): str
+  }
+@enduml
