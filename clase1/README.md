@@ -26,3 +26,6 @@ En cada uno de los directorios se encuentran varios ejemplos. Analice el codigo,
 
 > [!Important]
 > Aun falta documentar los ejemplos
+
+> [!Note]
+> **AI Disclosure:** This document was created with the assistance of Artificial Intelligence language models. The content has been reviewed, edited, and validated by a human author to ensure accuracy and quality.

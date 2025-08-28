@@ -3,14 +3,13 @@
 
 ## Fecha
 
-|Semana|Sesión|Fecha|Tipo|Enlaces|Observaciones|Recursos|Entregable|
-|---|---|---|---|---|---|---|---|
-|1| --- | 05/08/2025 |---|---|---|---|---|
-|| --- | 06/08/2025 | ---|---|---|---|---| 
-|2| --- | 12/08/2025 |---|---|---|---|---|
-|| --- | 13/08/2025 |---|---|---|---|---|
-|3| 1 | 19/08/2025 | Clase |---| Presentación del curso |---|---|
-|| 2 | 20/08/2025 | Laboratorio | ---|Introducción a la POO||---|
-|4| 3 | 26/08/2025 |Clase|---|---|Codigos POO []|Laboratorio 1 [[link]](https://github.com/algoritmos-poli/lab1-repaso_POO)|
-|| 4 | 27/08/2025 | Laboratorio|---|---|---|---|---|
-
+|Semana|Sesión|Fecha|Tipo|Observaciones|Recursos|Entregable|
+|---|---|---|---|---|---|---|
+|1| --- | 05/08/2025 |---|---|---|---|
+|| --- | 06/08/2025 | ---|---|---|---|
+|2| --- | 12/08/2025 |---|---|---|---|
+|| --- | 13/08/2025 |---|---|---|---|
+|3| 1 | 19/08/2025 | Clase | Presentación del curso |---|---|
+|| 2 | 20/08/2025 | Laboratorio |Introducción a la POO|Codigos POO [[link]](clase1/)|---|
+|4| 3 | 26/08/2025 |Clase|Arrays en Java (Parte 1)|Códigos Arrays (Parte 1) [[link]](clase2/)|Laboratorio 1 [[link]](https://github.com/algoritmos-poli/lab1-repaso_POO)|
+|| 4 | 27/08/2025 | Laboratorio|Arrays en Java (Parte 2)|Códigos Arrays (Parte 3) [[link]](clase3/)|Laboratorio 2 [[link]](https://github.com/algoritmos-poli/lab2-arrays)|
