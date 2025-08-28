@@ -1,7 +1,9 @@
 # Sesiones presenciales
 
 
-## Fecha
+## Lista de clases
+
+La siguiente tabla muestra el contenido de cada clase con los respectivos recursos.
 
 |Semana|Sesión|Fecha|Tipo|Observaciones|Recursos|Entregable|
 |---|---|---|---|---|---|---|
