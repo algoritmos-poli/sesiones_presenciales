@@ -1,0 +1,57 @@
+% --- PREÁMBULO ---
+% Define el tipo de documento. 'article' es ideal para documentos cortos.
+\documentclass[12pt, letterpaper]{article}
+
+% --- PAQUETES ESENCIALES ---
+% Soporte para caracteres en español (acentos, ñ)
+\usepackage[utf8]{inputenc}
+
+% Configuración del idioma español para la correcta separación de sílabas y títulos.
+\usepackage[spanish]{babel}
+
+% Paquete para un manejo avanzado de las matemáticas.
+\usepackage{amsmath}
+
+% Paquete para configurar los márgenes del documento.
+\usepackage[margin=2.5cm]{geometry}
+
+% --- INFORMACIÓN DEL DOCUMENTO ---
+\title{Mi Documento de Prueba en \LaTeX}
+\author{Mi Nombre}
+\date{\today} % Usa la fecha actual
+
+% --- INICIO DEL DOCUMENTO ---
+\begin{document}
+
+% Crea la portada con la información de arriba
+\maketitle
+
+% --- CONTENIDO ---
+\section{Introducción a la Prueba}
+
+Este es un documento de prueba para verificar que mi entorno \LaTeX{} funciona correctamente. Si puedes leer esto, incluyendo la letra **ñ** y las palabras con **acentuación**, significa que los paquetes `inputenc` y `babel` están funcionando bien.
+
+\subsection{Elementos a Verificar}
+
+A continuación, se listan algunos elementos comunes en un documento:
+\begin{itemize}
+    \item Listas como esta.
+    \item Fórmulas matemáticas.
+    \item Referencias cruzadas.
+\end{itemize}
+
+\section{Prueba de Matemáticas y Referencias}
+
+Las matemáticas son una de las fortalezas de \LaTeX. A continuación, se muestra la famosa ecuación de la relatividad de Einstein, que será numerada automáticamente:
+
+\begin{equation}
+E = mc^2
+\label{eq:einstein}
+\end{equation}
+
+El propósito de `latexmk` es compilar el documento las veces que sea necesario para que las referencias funcionen. Por ejemplo, como vemos en la ecuación \ref{eq:einstein}, la energía es igual a la masa por la velocidad de la luz al cuadrado.
+
+Si el número de la ecuación aparece correctamente en la frase anterior (un "1"), ¡la prueba ha sido un éxito!
+
+\end{document}
+% --- FIN DEL DOCUMENTO ---

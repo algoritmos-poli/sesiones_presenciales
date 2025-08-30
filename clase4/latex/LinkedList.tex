@@ -1,0 +1,19 @@
+\documentclass[border=10pt]{standalone} % standalone es ideal para esto
+\usepackage{amsmath}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+
+\begin{document}
+\begin{algorithmic}[1]
+    \Procedure{InsertarInicio}{$cabeza, valor$}
+      \State $nuevoNodo \gets \text{crearNodo}(valor)$
+      \If{$cabeza = \text{NIL}$}
+        \State $cabeza \gets nuevoNodo$
+      \Else
+        \State $nuevoNodo.siguiente \gets cabeza$
+        \State $cabeza \gets nuevoNodo$
+      \EndIf
+      \State \Return $cabeza$
+    \EndProcedure
+\end{algorithmic}
+\end{document}
