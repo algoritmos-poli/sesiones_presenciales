@@ -1,0 +1,45 @@
+@startuml
+' Título del Diagrama
+title Diagrama de Clases - LinkedIntList
+
+' Directiva para permitir mezclar título y clases
+allowmixing
+
+' ---- Estilos (Opcional) ----
+skinparam linetype ortho
+skinparam classAttributeIconSize 0
+skinparam shadowing false
+hide empty members
+
+' ---- Definición de Clases ----
+
+class LinkedIntList {
+  - head : Node
+  + LinkedIntList()
+  + add(value: int) : void
+  + get(value: int) : Node
+  + remove(value: int) : boolean
+  + contains(value: int) : boolean
+  + size() : int
+  + display() : String
+}
+
+class Node {
+  ~ data : int
+  ~ next : Node
+  + Node()
+  + Node(data: int)
+  + toString() : String
+}
+
+' ---- Definición de Relaciones ----
+
+' La clase LinkedIntList tiene una referencia a un nodo (head).
+' Esta es una relación de Composición, ya que la lista "posee" sus nodos.
+LinkedIntList "1" *-- "1" Node : "head"
+
+' Un Nodo tiene una referencia al siguiente Nodo en la lista.
+' Esta es una relación de Agregación (o Asociación).
+Node "1" o-- "0..1" Node : "next"
+
+@enduml
