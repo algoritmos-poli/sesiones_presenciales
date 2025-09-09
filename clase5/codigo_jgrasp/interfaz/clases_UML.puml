@@ -1,0 +1,40 @@
+@startuml
+' Titulo del diagrama
+title Class Diagram - Shape Interface
+
+' Oculta los miembros vacíos para un look más limpio
+hide empty members
+
+' --- Definición de la Interfaz ---
+interface Shape {
+  + {abstract} calculateArea(): double
+}
+
+' --- Definición de Clases Concretas ---
+class Circle {
+  - radius: double
+  + calculateArea(): double
+}
+
+class Square {
+  - side: double
+  + calculateArea(): double
+}
+
+class ShapeDemo {
+  + {static} main(String[] args): void
+}
+
+' --- Relaciones ---
+
+' Las clases Circle y Square implementan la interfaz Shape
+Shape <|.. Circle
+Shape <|.. Square
+
+' La clase ShapeDemo depende de (usa) la interfaz y las clases
+ShapeDemo ..> Shape : uses
+ShapeDemo ..> Circle : creates
+ShapeDemo ..> Square : creates
+
+
+@enduml

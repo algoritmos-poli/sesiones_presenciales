@@ -1,0 +1,30 @@
+!1689;s
+J
+SAU0JGRASP_MAIN_BOUNDS=%<CONTROL_SHELL_BOUNDS>\012PATH+=%<JGRASP_PATHS>%;\012PATH=+%;%<JGRASP_C_PATHS>\012CYGWIN=nodosfilewarning\012GCC_COLORS=\012-Run\012ADD_EXE_PATH==Y\012
+SCU0JGRASP_MAIN_BOUNDS=%<CONTROL_SHELL_BOUNDS>\012PATH+=%<JGRASP_PATHS>%;\012PATH=+%;%<JGRASP_C_PATHS>\012CYGWIN=nodosfilewarning\012GCC_COLORS=\012-Run\012ADD_EXE_PATH==Y\012
+S+U0JGRASP_MAIN_BOUNDS=%<CONTROL_SHELL_BOUNDS>\012PATH+=%<JGRASP_PATHS>%;\012PATH=+%;%<JGRASP_C_PATHS>\012CYGWIN=nodosfilewarning\012GCC_COLORS=\012-Run\012ADD_EXE_PATH==Y\012
+SJU0JGRASP_MAIN_BOUNDS=%<CONTROL_SHELL_BOUNDS>\012CLASSPATH=+%;%<EXTENSION_CLASSPATHS>\012CLASSPATH+=%<JGRASP_CLASSPATHS>%;\012CLASSPATH+=.%;\012CLASSPATH+=%<TARGET_CLASSPATHS>%;\012Compile +Document\012CLASSPATH+=%<SRC_CLASSPATHS>%;\012All\012PATH+=%<JAVA_BIN_DIR>%;\012PATH+=%<JGRASP_PATHS>%;\012Debug\012CLASSPATH=+%;%<INJECTION_CLASSPATHS>\012Compile\012NOT_FOUND_MESSAGE==Make sure you have the full Java SE, not just the JRE, installed.\\nJava is available from https://www.oracle.com/java/technologies .\012Document\012CLASSPATH=+%;%<TOOL_CLASSPATHS>\012
+SKU0CLASSPATH=+%;%<EXTENSION_CLASSPATHS>\012CLASSPATH+=%<JGRASP_CLASSPATHS>%;\012CLASSPATH+=.%;\012CLASSPATH+=%<TARGET_CLASSPATHS>%;\012Compile +Document\012CLASSPATH+=%<SRC_CLASSPATHS>%;\012All\012PATH+=%<JAVA_BIN_DIR>%;\012PATH+=%<JGRASP_PATHS>%;
+SXU0
+SOU0JGRASP_MAIN_BOUNDS=%<CONTROL_SHELL_BOUNDS>\012PATH+=%<JGRASP_PATHS>%;\012PATH=+%;%<JGRASP_C_PATHS>\012CYGWIN=nodosfilewarning\012GCC_COLORS=\012-Run\012ADD_EXE_PATH==Y\012
+SyU0JGRASP_MAIN_BOUNDS=%<CONTROL_SHELL_BOUNDS>\012PATH+=%<PYTHON_PATH>%;\012PATH+=%<JGRASP_PATHS>%;\012CYGWIN=nodosfilewarning\012GCC_COLORS=
+SPU0
+s#i0
+s#k0
+s#j0
+s#l0
+!2824;d
+[\012  grasp [\012   legendy 234.6404\012   legendx -85.2675999999999\012   version 1\012   winflags 3\012   eheight 691\012   ewidth 683\012   height 744\012   width 1382\012   wbp 0\012   initlayout 0\012   yoffs 234.6404000000001\012   xoffs -85.26759999999967\012   scale 0.48225308641975323\012   args ""\012   otherflags 139\012   shallowjar 1\012   visflags 118423807\012  ]\012  directed 1\012  node [\012   ClassInfo [\012    condition 1\012    access2 0\012    access 0\012    classname "TestListInterface"\012    fromclassfiledate 0\012    fromclassfilename "%\011TestListInterface.class"\012    fromfilename "%\011TestListInterface.java"\012   ]\012   id 0\012   graphics [\012    center [\012     x -73.5\012     y -139.5\012     z 0.0\012    ]\012   ]\012   vgj [\012    flags 0\012   ]\012  ]\012  node [\012   ClassInfo [\012    condition 1\012    access2 0\012    access 0\012    classname "DoublyLinkedList"\012    fromclassfiledate 0\012    fromclassfilename "%\011DoublyLinkedList.class"\012    fromfilename "%\011DoublyLinkedList.java"\012   ]\012   id 1\012   graphics [\012    center [\012     x -341.0\012     y 107.0\012     z 0.0\012    ]\012   ]\012   vgj [\012    flags 0\012   ]\012  ]\012  node [\012   ClassInfo [\012    condition 1\012    access2 0\012    access 0\012    classname "DoublyNode"\012    fromclassfiledate 0\012    fromclassfilename "%\011DoublyNode.class"\012    fromfilename "%\011DoublyNode.java"\012   ]\012   id 2\012   graphics [\012    center [\012     x -204.9264\012     y 75.89600000000002\012     z 0.0\012    ]\012   ]\012   vgj [\012    flags 0\012   ]\012  ]\012  node [\012   ClassInfo [\012    condition 1\012    access2 0\012    access 512\012    classname "ListInterface"\012    fromclassfiledate 0\012    fromclassfilename "%\011ListInterface.class"\012    fromfilename "%\011ListInterface.java"\012   ]\012   id 3\012   graphics [\012    center [\012     x -67.96960000000013\012     y 169.20799999999997\012     z 0.0\012    ]\012   ]\012   vgj [\012    flags 0\012   ]\012  ]\012  node [\012   ClassInfo [\012    condition 1\012    access2 0\012    access 0\012    classname "Node"\012    fromclassfiledate 0\012    fromclassfilename "%\011Node.class"\012    fromfilename "%\011Node.java"\012   ]\012   id 4\012   graphics [\012    center [\012     x 13.0\012     y 107.0\012     z 0.0\012    ]\012   ]\012   vgj [\012    flags 0\012   ]\012  ]\012  node [\012   ClassInfo [\012    condition 1\012    access2 0\012    access 0\012    classname "SimpleLinkedList"\012    fromclassfiledate 0\012    fromclassfilename "%\011SimpleLinkedList.class"\012    fromfilename "%\011SimpleLinkedList.java"\012   ]\012   id 5\012   graphics [\012    center [\012     x 147.0\012     y 107.0\012     z 0.0\012    ]\012   ]\012   vgj [\012    flags 0\012   ]\012  ]\012 ]!142;g
+%\011DoublyLinkedList.java
+%\011DoublyNode.java
+%\011ListInterface.java
+%\011Node.java
+%\011SimpleLinkedList.java
+%\011TestListInterface.java
+!142;f
+%\011DoublyLinkedList.java
+%\011DoublyNode.java
+%\011ListInterface.java
+%\011Node.java
+%\011SimpleLinkedList.java
+%\011TestListInterface.java
