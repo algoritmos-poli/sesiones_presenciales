@@ -1,0 +1,56 @@
+@startuml
+' --- Estilo del Diagrama ---
+skinparam classAttributeIconSize 0
+skinparam linetype ortho
+
+' --- Interfaz ---
+interface ListInterface {
+  + void addFirst(int)
+  + void addLast(int)
+  + void addAfter(Node, int)
+  + Node get(int)
+  + void remove(int)
+  + int size()
+  + void clear()
+  + boolean isEmpty()
+}
+
+' --- Clases Base ---
+class Node {
+  # int data
+  # Node next
+  + String toString()
+}
+
+class DoublyNode extends Node {
+  # Node prev
+}
+
+' --- Implementaciones de la Interfaz ---
+class SimpleLinkedList implements ListInterface {
+  - Node head
+  - Node tail
+  - int size
+  + String toString()
+}
+
+class DoublyLinkedList implements ListInterface {
+  - DoublyNode head
+  - DoublyNode tail
+  - int size
+  + String toString()
+}
+
+' --- Clase de Prueba ---
+class TestListInterface {
+  + {static} void main(String[])
+}
+
+' --- Relaciones ---
+SimpleLinkedList "1" *-- "0..*" Node : contiene
+DoublyLinkedList "1" *-- "0..*" DoublyNode : contiene
+
+TestListInterface ..> SimpleLinkedList : usa
+TestListİnterface ..> DoublyLinkedList : usa
+
+@enduml

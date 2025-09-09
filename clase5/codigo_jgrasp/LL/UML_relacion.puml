@@ -1,0 +1,44 @@
+@startuml
+' Diagrama de Clases para una Lista Enlazada
+skinparam classAttributeIconSize 0
+hide empty members
+
+class Node {
+  ~ int data
+  ~ Node next
+  + Node()
+  + Node(int data)
+  + toString(): String
+}
+
+class LinkedList {
+  - Node head
+  - Node tail
+  + addAfter(Node, int): void
+  + addFirst(int): void
+  + addLast(int): void
+  + get(int): Node
+  + remove(int): boolean
+  + clear(): void
+  + contains(int): boolean
+  + size(): int
+  + isEmpty(): boolean
+  + toString(): String
+}
+
+class LinkedListTest {
+  + {static} main(String[]): void
+}
+
+' ---- Relaciones ----
+
+' LinkedList está compuesta de Nodos
+LinkedList "1" *-- "0..*" Node : contiene
+
+' Un Nodo puede apuntar a otro Nodo
+Node --> Node : next
+
+' La clase de prueba depende de LinkedList
+LinkedListTest ..> LinkedList : usa
+
+@enduml

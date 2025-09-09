@@ -1,0 +1,53 @@
+@startuml
+' Diagrama de Clases para una Lista Doblemente Enlazada
+skinparam classAttributeIconSize 0
+hide empty members
+
+' Definición de la clase Node
+class Node {
+  ~ int data
+  ~ Node next
+  ~ Node prev
+  + Node()
+  + Node(int data)
+  + toString(): String
+}
+
+' Definición de la clase DoublyLinkedList
+class DoublyLinkedList {
+  - Node head
+  - Node tail
+  + addFront(int): void
+  + addEnd(int): void
+  + addAfter(Node, int): void
+  + get(int): Node
+  + isEmpty(): boolean
+  + size(): int
+  + clear(): void
+  + traverseForward(): void
+  + traverseBackward(): void
+  + removeFront(): void
+  + removeEnd(): void
+  + removeNode(Node): void
+  + toString(): String
+}
+
+' Definición de la clase de prueba
+class DoublyLinkedListTest {
+  + {static} main(String[]): void
+}
+
+' ---- Relaciones ----
+
+' DoublyLinkedList está compuesta de Nodos
+DoublyLinkedList "1" *-- "0..*" Node : contiene
+
+' Un Nodo se asocia con otros dos nodos (siguiente y anterior)
+Node --|> Node : prev
+Node --|> Node : next
+
+
+' La clase de prueba depende de DoublyLinkedList
+DoublyLinkedListTest ..> DoublyLinkedList : usa
+
+@enduml
