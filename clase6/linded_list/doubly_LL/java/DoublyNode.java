@@ -13,4 +13,3 @@ public class DoublyNode extends Node {
         this.prev = null;
     }
 }
-

@@ -60,6 +60,9 @@ class DoublyLinkedList:
         self.head = None
         self.tail = None
     
+    def contains(self, value):
+        return self.get(value) is not None
+    
     def traverse_forward(self):
         current = self.head
         while current:
