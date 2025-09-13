@@ -6,7 +6,6 @@ public class DoublyLinkedList {
         this.head = null;
         this.tail = null;
     }
-
     
     public void addFirst(int data) {
         DoublyNode newNode = new DoublyNode(data);
