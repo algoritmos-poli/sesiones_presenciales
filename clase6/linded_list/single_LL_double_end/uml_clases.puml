@@ -1,0 +1,11 @@
+@startuml
+
+skinparam classAttributeIconSize 0
+
+class Node
+class LinkedList
+
+' Relación de Asociación/Uso: DoublyLinkedList usa DoublyNode para su cabeza y cola
+LinkedList --> Node : "head, tail"
+
+@enduml
