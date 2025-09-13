@@ -118,6 +118,17 @@ public class DoublyLinkedList {
         return count;
     }
 
+    public boolean contains(int value) {
+        Node current = head;
+        while (current != null) {
+            if (current.data == value) {
+                return true;
+            }
+            current = current.next;
+        }
+        return false;
+    }
+
 
     public void clear() {
         head = null;
@@ -125,17 +136,16 @@ public class DoublyLinkedList {
     }
 
     public String toString() {
-        StringBuilder sb = new StringBuilder("null <- ");
+        StringBuilder sb = new StringBuilder();
         DoublyNode current = head;
+        if (current == null) {
+            return "Empty List";
+        }
         while (current != null) {
             sb.append("[").append(current.data).append("] <-> ");
             current = (DoublyNode) current.next; // Cast necesario: .next devuelve un tipo Node (padre), 
                                                  //pero la variable es DoublyNode (hija).
-        }
-        if (sb.length() > 8) {
-             sb.setLength(sb.length() - 5); // Elimina el último " <-> "
-        }
-        sb.append(" -> null");
+        }        
         return sb.toString();
     }
 }
