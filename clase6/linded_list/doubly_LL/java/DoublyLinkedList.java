@@ -19,7 +19,6 @@ public class DoublyLinkedList {
         }
     }
 
-
     public void addLast(int value) {
         DoublyNode newNode = new DoublyNode(value);
         if (tail == null) {
