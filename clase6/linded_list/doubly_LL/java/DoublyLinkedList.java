@@ -6,10 +6,9 @@ public class DoublyLinkedList {
         this.head = null;
         this.tail = null;
     }
-
     
-    public void addFirst(int data) {
-        DoublyNode newNode = new DoublyNode(data);
+    public void addFirst(int value) {
+        DoublyNode newNode = new DoublyNode(value);
         if (head == null) {
             head = newNode;
             tail = newNode;
@@ -21,8 +20,8 @@ public class DoublyLinkedList {
     }
 
 
-    public void addLast(int data) {
-        DoublyNode newNode = new DoublyNode(data);
+    public void addLast(int value) {
+        DoublyNode newNode = new DoublyNode(value);
         if (tail == null) {
             head = newNode;
             tail = newNode;
@@ -33,26 +32,28 @@ public class DoublyLinkedList {
         }
     }
 
-    public void addAfter(DoublyNode prevNode, int data) {
-        if (prevNode == null) return;
-
-        DoublyNode newNode = new DoublyNode(data);
+    public void addAfter(Node node, int value) {
+        if (node == null || !(node instanceof DoublyNode)) return;
+        
+        DoublyNode prevNode = (DoublyNode) node;
+        DoublyNode newNode = new DoublyNode(value);
 
         newNode.next = prevNode.next;
         newNode.prev = prevNode;
         prevNode.next = newNode;
 
-        if (newNode.next != null) { // If not inserting at the end
-            newNode.next.prev = newNode;
-        } else { // If inserting at the end
+        if (newNode.next != null) {
+            ((DoublyNode) newNode.next).prev = newNode;
+        } else {
             tail = newNode; // Update tail if added at the end
         }
     }
+    
 
-    public DoublyNode get(int data) {
+    public Node get(int value) {
         DoublyNode current = head;
         while (current != null) {
-            if (current.data == data) {
+            if (current.data == value) {
                 return current;
             }
             current = (DoublyNode) current.next; // Cast necesario: .next devuelve un tipo Node (padre), 
@@ -61,38 +62,51 @@ public class DoublyLinkedList {
         return null;
     }
 
-    public void remove(int data) {
-        if (head == null) return;
+    public void removeFront() {
+        if (head == null) {
+            return; // list is empty
+        }
+        if (head == tail) {
+            head = null;
+            tail = null; // list had one node
+        } else {
+            head = (DoublyNode) head.next;
+            head.prev = null;
+        }
+    }
 
-        // Caso 1: El nodo a eliminar es la cabeza (head)
-        if (head.data == data) {
-            head = head.next;
-            if (head != null) {
-                head.prev = null;
-            } else {
-                tail = null; // La lista ahora está vacía
-            }
+    public void removeEnd() {
+        if (tail == null) {
+            return; // list is empty
+        }
+        if (head == tail) {
+            head = null;
+            tail = null; // list had one node
+        } else {
+            tail = (DoublyNode) tail.prev;
+            tail.next = null;
+        }
+    }
+
+    public void removeNode(Node node) {
+        if (node == null || !(node instanceof DoublyNode)) return;
+
+        DoublyNode toRemove = (DoublyNode) node;
+
+        if (toRemove == head) {
+            removeFront();
+            return;
+        }
+        if (toRemove == tail) {
+            removeEnd();
             return;
         }
 
-        // Caso 2: El nodo está en el medio o al final
-        DoublyNode current = head;
-        while (current != null && current.data != data) {
-            current = current.next;
+        if (toRemove.prev != null) {
+            toRemove.prev.next = toRemove.next;
         }
-
-        // Si se encontró el nodo (current no es null)
-        if (current != null) {
-            if (current.next != null) {
-                current.next.prev = current.prev;
-            } else {
-                // Se está eliminando la cola, la nueva cola es el nodo anterior
-                tail = current.prev;
-            }
-            
-            if (current.prev != null) {
-                current.prev.next = current.next;
-            }
+        if (toRemove.next != null) {
+            ((DoublyNode) toRemove.next).prev = toRemove.prev;
         }
     }
     
@@ -105,28 +119,21 @@ public class DoublyLinkedList {
         DoublyNode current = head;
         while (current != null) {
             count++;
-            current = current.next;
+            current = (DoublyNode) current.next;
         }
         return count;
     }
 
     public boolean contains(int value) {
-        DoublyNode current = head;
-        while (current != null) {
-            if (current.data == value) {
-                return true;
-            }
-            current = current.next;
-        }
-        return false;
+        return get(value) != null;
     }
-
 
     public void clear() {
         head = null;
         tail = null;
     }
-
+    
+    @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
         DoublyNode current = head;
@@ -134,9 +141,12 @@ public class DoublyLinkedList {
             return "Empty List";
         }
         while (current != null) {
-            sb.append("[").append(current.data).append("] <-> ");
-            current = current.next;
-        }        
+            sb.append(current.toString());
+            if (current.next != null) {
+                sb.append(" <-> ");
+            }
+            current = (DoublyNode) current.next;
+        }
         return sb.toString();
     }
 }

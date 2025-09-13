@@ -7,7 +7,7 @@ public class TestDoublyLinkedList {
         System.out.println(ll);  // Output: [5] <-> [10] <-> [15]
         ll.addAfter((DoublyNode) ll.get(10), 12);    
         System.out.println(ll);  // Output: [5] <-> [10] <-> [12] <-> [15]
-        ll.remove(5);
+        ll.removeNode((DoublyNode) ll.get(5));
         System.out.println(ll);  // Output: [10] <-> [12] <-> [15]
         System.out.println("Size: " + ll.size());  // Output: Size: 3
         System.out.println("Contains 12: " + ll.contains(12));  // Output: Contains 12: True
