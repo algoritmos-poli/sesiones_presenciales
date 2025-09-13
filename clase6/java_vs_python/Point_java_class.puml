@@ -1,0 +1,19 @@
+@startuml
+' Diagrama de clase generado a partir de Point.java
+' Nota: Se corrigieron detalles menores del código fuente (return type de distanceTo, llaves/;).
+
+class Point {
+  - x: int
+  - y: int
+  --
+  + Point(x: int, y: int)
+  + Point()
+  + getX(): int
+  + getY(): int
+  + setX(x: int): void
+  + setY(y: int): void
+  + norm(): double
+  + distanceTo(other: Point): double
+  + toString(): String
+}
+@enduml

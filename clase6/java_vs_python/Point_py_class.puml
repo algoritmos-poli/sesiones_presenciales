@@ -1,0 +1,13 @@
+@startuml
+' Diagrama de clase generado a partir de point.py
+
+class Point {
+  - x: float
+  - y: float
+  --
+  + __init__(x: float = 0, y: float = 0)
+  + __str__(): str
+  + norm(): float
+  + distanceTo(other: Point): float
+}
+@enduml
