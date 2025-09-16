@@ -16,8 +16,9 @@ La siguiente tabla muestra el contenido de cada clase con los respectivos recurs
 |4| 3 | 26/08/2025 |Clase|Arrays en Java (Parte 1)|Códigos Arrays (Parte 1) [[link]](clase2/)|Laboratorio 1 [[link]](https://github.com/algoritmos-poli/lab1-repaso_POO)|
 || 4 | 27/08/2025 | Laboratorio|Arrays en Java (Parte 2)|Códigos Arrays (Parte 2) [[link]](clase3/)|Laboratorio 2 [[link]](https://github.com/algoritmos-poli/lab2-arrays)|
 |5| 5 | 02/09/2025 |Clase|Listas enlazadas simples en Java |Códigos Listas enlazadas simples [[link]](clase4/)|Laboratorio 3 [[link]](https://github.com/algoritmos-poli/lab3-arraylist)|
-|5| 6 | 03/09/2025 |Laboratorio|Estudio de algunos ejemplos y revisión de laboratorios 1 y 2|Ejemplos de listas enlazadas simples [link](https://github.com/algoritmos-poli/lab4-listas_enlazadas_simples/tree/main/rev_teorica)|
-
+|| 6 | 03/09/2025 |Laboratorio|Estudio de algunos ejemplos y revisión de laboratorios 1 y 2|Ejemplos de listas enlazadas simples [link](https://github.com/algoritmos-poli/lab4-listas_enlazadas_simples/tree/main/rev_teorica)|
+|6| 7 | 09/09/2025 |Clase|Implementación en Java de Listas enlazadas simples de doble enlace y listas enlazadas dobles||
+|| 8 | 10/09/2025 |Laboratorio|Implementación de Listas enlazadas empleando conceptos de POO|Ejemplo analizado [link](clase5/codigo_jgrasp/interfaz/)||
 
 ## Referencias
 
