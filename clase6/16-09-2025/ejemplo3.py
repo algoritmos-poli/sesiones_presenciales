@@ -1,0 +1,18 @@
+""" Indexado a un unico elemento """
+universidad = "Universidad de Antioquia"
+print(universidad)
+print(len(universidad))
+print()
+# Indexado con subindices positivos para obtener la U, r, A, i (ultima), a (ultima)
+print(universidad[0])
+print(universidad[5])
+print(universidad[15])
+print(universidad[22])
+print(universidad[23])
+print()
+# Indexado con subindices positivos para obtener la U, r, A, i (ultima), a (ultima)
+print(universidad[-24])
+print(universidad[-19])
+print(universidad[-9])
+print(universidad[-2])
+print(universidad[-1])
