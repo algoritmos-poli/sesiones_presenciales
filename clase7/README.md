@@ -319,3 +319,5 @@ Inválidas: debil, FUERTE, 12345678, Fuerte, Fuerte12
   - `$`: Ancla de fin de cadena.
 </details>
 
+> [!Note]
+> **AI Disclosure:** This document was created with the assistance of Artificial Intelligence language models. The content has been reviewed, edited, and validated by a human author to ensure accuracy and quality.
