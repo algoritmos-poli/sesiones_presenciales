@@ -63,3 +63,8 @@ En el directorio raíz encontrarás varios notebooks que cubren los siguientes t
 - [Real Python: Parsing CSV Files](https://realpython.com/python-interview-problem-parsing-csv-files/)
 - [Complete Python 3 Bootcamp](https://github.com/Pierian-Data/Complete-Python-3-Bootcamp/)
 - [Complete Python 3 Bootcamp: PDFs and Spreadsheets](https://github.com/Pierian-Data/Complete-Python-3-Bootcamp/tree/master/15-PDFs-and-Spreadsheets)
+
+## Importante
+
+> [!Note]
+> **AI Disclosure:** This document was created with the assistance of Artificial Intelligence language models. The content has been reviewed, edited, and validated by a human author to ensure accuracy and quality.
