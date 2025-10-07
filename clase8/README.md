@@ -4,6 +4,9 @@
 
 En esta clase exploraremos conceptos fundamentales para el manejo de datos en Python, comenzando con el uso de conjuntos (sets) y avanzando hacia la lectura y escritura de archivos de texto y archivos CSV. Estos temas son esenciales para el procesamiento y análisis de información, y te permitirán desarrollar habilidades prácticas para manipular datos en distintos formatos utilizando Python.
 
+> [!tip]
+> Tenga a la mano el siguiente resumen ([link](python-cheatsheet.pdf)) para consulta rapida.
+
 ## Contenido
 
 En el directorio raíz encontrarás varios notebooks que cubren los siguientes temas, recomendados para ser trabajados en este orden:
@@ -63,6 +66,7 @@ En el directorio raíz encontrarás varios notebooks que cubren los siguientes t
 - [Real Python: Parsing CSV Files](https://realpython.com/python-interview-problem-parsing-csv-files/)
 - [Complete Python 3 Bootcamp](https://github.com/Pierian-Data/Complete-Python-3-Bootcamp/)
 - [Complete Python 3 Bootcamp: PDFs and Spreadsheets](https://github.com/Pierian-Data/Complete-Python-3-Bootcamp/tree/master/15-PDFs-and-Spreadsheets)
+- [Importing Data in Python Cheat Sheet](https://www.datacamp.com/cheat-sheet/importing-data-in-python-cheat-sheet)
 
 ## Importante
 
