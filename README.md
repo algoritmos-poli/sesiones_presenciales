@@ -27,3 +27,4 @@ La siguiente tabla muestra el contenido de cada clase con los respectivos recurs
 * https://courses.cs.washington.edu/courses/cse142/22su/
 * https://courses.cs.washington.edu/courses/cse143/23sp/
 * https://courses.cs.washington.edu/courses/cse142/21su/
+* https://allendowney.github.io/ThinkPython/
