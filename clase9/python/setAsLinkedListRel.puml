@@ -1,0 +1,23 @@
+@startuml
+' Diagrama simplificado mostrando solo las relaciones entre clases
+
+' Definición de las clases sin sus miembros internos
+class Node
+class LikedList
+class SetAsLinkedList
+
+' --- Relaciones ---
+
+' Relación de Composición: SetAsLinkedList "tiene una" LikedList
+SetAsLinkedList "1" *-- "1" LikedList
+
+' Relación de Composición: LikedList "tiene" cero o más Nodos
+LikedList "1" *-- "0..*" Node
+
+' Relación de Agregación: Un Nodo puede apuntar a otro Nodo
+Node o-- "0..1" Node
+
+' Relación de Dependencia: SetAsLinkedList usa otra instancia de sí misma
+SetAsLinkedList ..> SetAsLinkedList
+
+@enduml

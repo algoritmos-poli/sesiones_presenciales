@@ -1,0 +1,51 @@
+@startuml
+' Diagrama de clases para la implementación de Set con Linked List
+
+skinparam classAttributeIconSize 0
+hide empty members
+
+class Node {
+  + data : object
+  + next : Node
+  + __init__(data, next=None)
+  + __str__() : str
+}
+
+class LikedList {
+  + head : Node
+  - __sizeof__ : int
+  + add(data)
+  + remove(value) : bool
+  + contains(data) : bool
+  + size() : int
+  + __iter__()
+}
+
+class SetAsLinkedList {
+  - _data : LikedList
+  + add(element)
+  + remove(element) : bool
+  + union(other: SetAsLinkedList) : SetAsLinkedList
+  + intersection(other: SetAsLinkedList) : SetAsLinkedList
+  + difference(other: SetAsLinkedList) : SetAsLinkedList
+  + simetric_difference(other: SetAsLinkedList) : SetAsLinkedList
+  + size() : int
+  + __contains__(element) : bool
+  + __repr__() : str
+}
+
+' --- Relaciones ---
+
+' Un SetAsLinkedList ESTÁ COMPUESTO por una LikedList
+SetAsLinkedList "1" *-- "1" LikedList : uses as _data >
+
+' Una LikedList ESTÁ COMPUESTA por Nodos
+LikedList "1" *-- "0..*" Node : contains >
+
+' Un Nodo puede apuntar a otro Nodo
+Node o-- "0..1" Node : next >
+
+' SetAsLinkedList depende de sí mismo para las operaciones de conjuntos
+SetAsLinkedList ..> SetAsLinkedList : uses in operations
+
+@enduml

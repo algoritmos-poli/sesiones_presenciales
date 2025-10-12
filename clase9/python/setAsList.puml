@@ -1,0 +1,26 @@
+@startuml
+' Diagrama para la clase SetAsList
+
+skinparam classAttributeIconSize 0
+hide empty members
+
+class SetAsList {
+  - _data : list
+  + __init__()
+  + add(element: object)
+  + remove(element: object) : bool
+  + size() : int
+  + union(other: SetAsList) : SetAsList
+  + intersection(other: SetAsList) : SetAsList
+  + difference(other: SetAsList) : SetAsList
+  + simetric_difference(other: SetAsList) : SetAsList
+  + __contains__(element: object) : bool
+  + __str__() : str
+  + __repr__() : str
+}
+
+' Relación de dependencia: La clase usa otra instancia de sí misma
+' para las operaciones de conjuntos (union, intersection, etc.)
+SetAsList ..> SetAsList : uses in operations
+
+@enduml

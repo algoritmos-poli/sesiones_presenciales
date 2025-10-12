@@ -1,0 +1,10 @@
+@startuml
+' Diagrama simplificado mostrando solo la clase y sus relaciones
+
+' Definición de la clase sin sus miembros internos
+class SetAsList
+
+' Relación de Dependencia: La clase usa otra instancia de sí misma
+SetAsList ..> SetAsList
+
+@enduml
