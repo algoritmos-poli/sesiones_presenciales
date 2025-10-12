@@ -1,0 +1,21 @@
+@startuml
+' Diagrama de clases para la implementación de Set con Linked List
+
+skinparam classAttributeIconSize 0
+hide empty members
+
+
+class SetAsLinkedList {
+  - _data : LikedList
+  + add(element)
+  + remove(element) : bool
+  + union(other: SetAsLinkedList) : SetAsLinkedList
+  + intersection(other: SetAsLinkedList) : SetAsLinkedList
+  + difference(other: SetAsLinkedList) : SetAsLinkedList
+  + simetric_difference(other: SetAsLinkedList) : SetAsLinkedList
+  + size() : int
+  + __contains__(element) : bool
+  + __repr__() : str
+}
+
+@enduml
