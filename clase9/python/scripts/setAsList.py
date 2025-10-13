@@ -51,7 +51,7 @@ class SetAsList:
     def size(self):
         return len(self._data)
     
-    def simetric_difference(self, other):
+    def symmetric_difference(self, other):
         # Diferencia simétrica de dos sets
         result = SetAsList()
         for item in self._data:
@@ -109,7 +109,7 @@ difference2 = album_set2.difference(album_set1)
 print("Difference (Set2 - Set1):", difference2)
 
 # symmetric_difference = album_set1 ^ album_set2
-symmetric_difference = album_set1.simetric_difference(album_set2)
+symmetric_difference = album_set1.symmetric_difference(album_set2)
 print("Symmetric Difference:", symmetric_difference)
 
 # Size of sets
