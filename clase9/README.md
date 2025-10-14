@@ -1,44 +1,42 @@
-# Implementación de Sets
+# Implementación de Sets a parir de estructuras de datos
 
-Este directorio contiene implementaciones de la estructura de datos `set` utilizando diferentes enfoques y estructuras subyacentes. A continuación, se describe el contenido del subdirectorio `python` y cómo utilizar los recursos disponibles.
+Este directorio contiene implementaciones de la estructura de datos `set` utilizando diferentes enfoques y estructuras subyacentes. En el caso se van a explorar dos implementaciones:
+1. **`setAsList`**: Implementación a partir de datos tipo `list`.
+2. **`setAsLikedList`**: Implementación a partir de listas enlazadas simples (`LinkedList`).
+
+A continuación, se describe el contenido del subdirectorio `python` y cómo utilizar los recursos disponibles.
 
 ## Contenido del directorio `python`
 
-El directorio `python` está organizado de la siguiente manera:
+El directorio [`python`](./python/) está organizado de la siguiente manera:
 
-1. **`notebooks/`**  
-   Contiene notebooks interactivos diseñados para explorar y aprender sobre las implementaciones de conjuntos (`set`) y listas en Python:
-   - **`python-Lists.ipynb`**: Introducción a las listas en Python, incluyendo operaciones básicas, indexación y métodos útiles.
-   - **`set_as_List.ipynb`**: Implementación de conjuntos utilizando listas estándar de Python.
-   - **`set_as_LinkedList.ipynb`**: Implementación de conjuntos utilizando listas enlazadas simples.
+### Directorio [`notebooks`](./python/notebooks/)
+
+Contiene notebooks interactivos diseñados para explorar y aprender sobre las implementaciones de conjuntos (`set`) y listas en Python:
+1. **[`python-Lists.ipynb`](./python/notebooks/python-Lists.ipynb)**: Introducción a las listas (`list`) en Python, incluyendo operaciones básicas, indexación y métodos útiles.
+2. **[`set_as_List.ipynb`](./python/notebooks/set_as_List.ipynb)**: Implementación de conjuntos utilizando listas estándar (`list`) de Python.
+3. **[`set_as_LinkedList.ipynb`](./python/notebooks/python-Lists.ipynb)**: Implementación de conjuntos utilizando listas enlazadas simples (`LinkeList`).
   
+### Directorio [`scripts`](./python/scripts/)
 
-2. **`scripts/`**  
-   Contiene scripts de Python con las implementaciones de conjuntos:
-   - **`setAsList.py`**: Implementación de conjuntos utilizando listas estándar de Python.
-   - **`setAsLinkedList.py`**: Implementación de conjuntos utilizando listas enlazadas simples.
+Contiene scripts de Python con las implementaciones de conjuntos (`set`):
+1. **[`setAsList.py`](./python/scripts/setAsList.py)**: Implementación de conjuntos utilizando listas estándar de Python.
+2. **[`setAsLinkedList.py`](./python/scripts/setAsLinkedList.py)**: Implementación de conjuntos utilizando listas enlazadas simples.
 
 ## Cómo ejecutar los códigos
 
-1. **Ejecutar los notebooks**  
-   - Abre los notebooks en Jupyter Notebook o Google Colab.
-   - Sigue las instrucciones y ejemplos incluidos en cada notebook.
+### Ejecutar los notebooks
 
-2. **Ejecutar los scripts**  
-   - Navega al directorio `scripts/` desde la terminal:
-     ```bash
-     cd python/scripts
-     ```
-   - Ejecuta los scripts con Python:
-     ```bash
-     python setAsList.py
-     python setAsLinkedList.py
-     ```
+1. Abra los notebooks en Jupyter Notebook o Google Colab.
+2. Siga las instrucciones y ejemplos incluidos en cada notebook.
 
-3. **Requisitos previos**  
-   Asegúrate de tener instalado Python 3.x. Si no lo tienes, puedes descargarlo desde [python.org](https://www.python.org/).
+### Ejecutar los scripts
 
-Este directorio está diseñado para ayudarte a comprender diferentes enfoques en la implementación de conjuntos y comparar sus ventajas y desventajas.
+Para ejecutaar los scripts
+1. Abra el archivo deseado (`setAsList.py` o `setAsLinkedList.py`) en el IDE.
+2. Ejecute el script directamente desde el IDE.
+3. Observe la salida en la consola integrada.
 
 
-
+> [!Note]
+> **AI Disclosure:** This document was created with the assistance of Artificial Intelligence language models. The content has been reviewed, edited, and validated by a human author to ensure accuracy and quality.
