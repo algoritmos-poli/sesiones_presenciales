@@ -6,7 +6,7 @@ Este directorio contiene implementaciones de la estructura de datos `set` utiliz
 
 A continuación, se describe el contenido del subdirectorio `python` y cómo utilizar los recursos disponibles.
 
-## Contenido del directorio `python`
+## Contenido del directorio [`python`](./python/)
 
 El directorio [`python`](./python/) está organizado de la siguiente manera:
 
