@@ -107,3 +107,5 @@ Para la manipulación de los archivos, el modulo (`gestion_usuarios.py`) posee f
 | `load_students_from_csv(file_path)` | Lee un archivo CSV, crea objetos `Student` por cada fila y devuelve una lista con todos ellos. |
 | `save_students_to_csv(file_path, group)`| Guarda la lista de estudiantes de un objeto `Group` en un archivo CSV, sobrescribiendo el contenido anterior. |
 
+> [!Note]
+> **AI Disclosure:** This document was created with the assistance of Artificial Intelligence language models. The content has been reviewed, edited, and validated by a human author to ensure accuracy and quality.

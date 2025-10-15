@@ -15,7 +15,7 @@ El directorio [`python`](./python/) está organizado de la siguiente manera:
 Contiene notebooks interactivos diseñados para explorar y aprender sobre las implementaciones de conjuntos (`set`) y listas en Python:
 1. **[`python-Lists.ipynb`](./python/notebooks/python-Lists.ipynb)**: Introducción a las listas (`list`) en Python, incluyendo operaciones básicas, indexación y métodos útiles.
 2. **[`set_as_List.ipynb`](./python/notebooks/set_as_List.ipynb)**: Implementación de conjuntos utilizando listas estándar (`list`) de Python.
-3. **[`set_as_LinkedList.ipynb`](./python/notebooks/python-Lists.ipynb)**: Implementación de conjuntos utilizando listas enlazadas simples (`LinkeList`).
+3. **[`set_as_LinkedList.ipynb`](./python/notebooks/set_as_LinkedList.ipynb)**: Implementación de conjuntos utilizando listas enlazadas simples (`LinkeList`).
   
 ### Directorio [`scripts`](./python/scripts/)
 
