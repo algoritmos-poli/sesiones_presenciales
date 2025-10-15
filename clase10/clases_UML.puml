@@ -1,0 +1,15 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+class Group {
+  ' ... (attributes and methods)
+}
+
+class Student {
+  ' ... (attributes and methods)
+}
+
+' Relationship: A Group has zero or more Students
+Group "1" o-- "0..*" Student
+
+@enduml

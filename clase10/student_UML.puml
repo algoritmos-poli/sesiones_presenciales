@@ -1,0 +1,15 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+class Student {
+  - name: string
+  - age: int
+  - student_id: string
+  - grades: list
+
+  + __init__(name: string, age: int, student_id: string)
+  + get_student_info(): string
+  + add_grade(grade: float): void
+  + get_average_grade(): float
+}
+@enduml

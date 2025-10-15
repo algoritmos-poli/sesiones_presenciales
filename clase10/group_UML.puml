@@ -1,0 +1,19 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+class Group {
+  - name: string
+  - students: list<Student>
+
+  + __init__(name: string)
+  + add_student(student: Student): void
+  + remove_student(student: Student): void
+  + show_all_students_info(): void
+  + get_student_by_id(student_id: string): Student
+  + get_pass_fail_counts(passing_grade: float): tuple
+  + get_top_student(): Student
+  + get_group_average(): float
+  + get_students_sorted_by_grade(descending: bool): list<Student>
+}
+
+@enduml

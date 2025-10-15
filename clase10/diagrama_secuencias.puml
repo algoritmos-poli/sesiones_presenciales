@@ -1,0 +1,34 @@
+@startuml
+' Diagrama de Secuencia: Búsqueda de un Estudiante por ID
+
+actor "Profesor" as P
+participant "main.py" as M
+participant "group_object:Group" as G
+participant "student_object:Student" as S
+
+P -> M: Selecciona opción "3. Buscar por ID"
+activate M
+
+M -> P: Solicita el ID del estudiante
+P -> M: Ingresa el ID (ej: "S12345")
+
+M -> G: get_student_by_id("S12345")
+activate G
+
+G --> M: Retorna el objeto Student encontrado
+deactivate G
+
+M -> S: get_student_info()
+activate S
+S --> M: Retorna "Name: Valentina, Age: 20, ..."
+deactivate S
+
+M -> S: get_average_grade()
+activate S
+S --> M: Retorna el promedio (ej: 4.22)
+deactivate S
+
+M -> P: Muestra la información completa del estudiante
+deactivate M
+
+@enduml
