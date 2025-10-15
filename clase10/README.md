@@ -3,6 +3,12 @@
 
 Este proyecto es una aplicación de consola en Python diseñada para administrar las notas y la información de un grupo de estudiantes. Sirve como una herramienta de doble propósito, ofreciendo una interfaz para profesores con control administrativo total y una vista restringida para que los estudiantes consulten su propia información.
 
+> [!important]
+> Antes de empezar se recomienda que tenga a la mano los siguientes recursos para consulta rapida:
+> - **Contenido introductorio sobre Python** [[link]](https://github.com/algoritmos-poli/intro_python)
+> - **Manejo de archivos en Python** [[python-ReadFile.ipynb]](https://github.com/algoritmos-poli/sesiones_presenciales/blob/main/clase8/python-ReadFile.ipynb) [[python-WriteFile.ipynb]](https://github.com/algoritmos-poli/sesiones_presenciales/blob/main/clase8/python-WriteFile.ipynb) [[csv-python.ipynb]](https://github.com/algoritmos-poli/sesiones_presenciales/blob/main/clase8/csv-python.ipynb)
+> - **Resumenes de python** [[link]](https://github.com/algoritmos-poli/referencias/blob/main/cheat-sheets/beginners_python_cheat_sheet_pcc_all.pdf) 
+
 ## Caracteristicas principales
 
 ### Doble Rol de Usuario
@@ -25,17 +31,17 @@ Este proyecto es una aplicación de consola en Python diseñada para administrar
 
 El sistema se compone de los siguientes archivos:
 
-* [`main.py`](./scripts/main.py):
+* [**`main.py`**](./scripts/main.py)
   * Es el punto de entrada que se debe ejecutar.
   * Maneja el "login" inicial para diferenciar entre profesor y estudiante.
   * Presenta los menús correspondientes a cada rol y gestiona la interacción con el usuario.
 
-* [`gestion_estudiantes.py`](./scripts/gestion_estudiantes.py):
+* [**`gestion_estudiantes.py`**](./scripts/gestion_estudiantes.py)
   * Define la clase `Student` para encapsular los datos de un alumno (nombre, ID, notas) y sus comportamientos (calcular promedio).
   * Define la clase `Group` para gestionar la colección de estudiantes y realizar operaciones sobre el grupo (ranking, estadísticas, búsquedas).
   * Incluye funciones para leer y escribir los datos desde y hacia el archivo `grades.csv`.
 
-* [grades.csv](./scripts/grades.csv):
+* [**grades.csv**](./scripts/grades.csv)
   * Es la "base de datos" del proyecto.
   * Almacena la información de los estudiantes en un formato de texto plano separado por punto y coma (`;`).
 
