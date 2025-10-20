@@ -21,3 +21,11 @@
 * https://jupyternotebooks-dpb6-e8e09e2d24a591fa64baaf90dc750c5415a29cf5e.pages.oit.duke.edu/intro.html
 * https://primer-computational-mathematics.github.io/book/b_coding/Fundamentals%20of%20Computer%20Science/2_Recursion.html
 * https://github.com/rasbt/algorithms_in_ipython_notebooks
+* https://realpython.com/python-thinking-recursively/
+* https://inventwithpython.com/blog/22-examples-of-recursive-functions.html
+* https://github.com/rambasnet/Python-Fundamentals
+* https://github.com/rambasnet/Python-Fundamentals/blob/main/notebooks/Ch25-DynamicProgramming.ipynb
+* https://recursion.vercel.app/
+* https://www.cs.usfca.edu/~galles/visualization/RecFact.html
+* https://realpython.com/python-recursion/
+* https://cs10.org/fa19/
