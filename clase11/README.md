@@ -1,6 +1,25 @@
-# Clase
+# Resumen clase 11
 
+Este apartado describe de forma concisa los recursos disponibles en la clase 11 sobre funciones y diccionarios.
 
+## Notebooks
+
+- [`python-dictionary.ipynb`](notebooks/python-dictionary.ipynb) Introduce diccionarios en Python: creación, acceso, métodos comunes (get, keys, values, items), y ejemplos de uso en conteo y mapeo de datos.
+- [`python-funciones.ipynb`](notebooks/python-funciones.ipynb)
+  Repasa funciones en Python: definición, parámetros (posicionales, por nombre, valores por defecto), retorno múltiple, recursión y casos de estudio prácticos.
+
+**Uso**: abrir en Jupyter Notebook / JupyterLab o Google Colab y ejecutar las celdas interactivas.
+
+## Scripts
+
+- [`scripts/diccionarios/`](scripts/diccionarios/)  
+  - `CountKeywords.py`: ejemplos de conteo de palabras/palabras clave.  
+  - `study_case/CountOccurrenceOfWords.py`, `CountOccurrenceOfWordsFromFile.py`: utilidades para contar ocurrencias en textos (incluye `lincoln.txt` como ejemplo).
+- [`scripts/funciones/`](scripts/funciones/)  
+  Contiene implementaciones y pruebas de funciones comunes (GCD, conversión decimal→hex, generación aleatoria, pruebas unitarias, etc.). Archivos relevantes: `DefaultArgumentDemo.py`, `GCDFunction.py`, `GuessNumber.py`, `MultipleReturnValueDemo.py`, `PrimeNumberFunction.py`, `ReturnGradeFunction.py`, `TestGCDFunction.py`, `TestMax.py`, además de casos de estudio en `study-case/`.
+
+> [!Note]
+> **AI Disclosure:** This document was created with the assistance of Artificial Intelligence language models. The content has been reviewed, edited, and validated by a human author to ensure accuracy and quality.
 
 ## Enlaces
 
