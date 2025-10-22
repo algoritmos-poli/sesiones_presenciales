@@ -37,3 +37,6 @@ En el directorio `notebooks/solutions/` se encuentran las implementaciones de lo
 ## Uso de los Materiales
 
 Los scripts pueden ejecutarse individualmente para estudiar su funcionamiento. Se recomienda revisar primero el notebook introductorio para comprender los conceptos fundamentales antes de analizar las implementaciones específicas.
+
+> [!Note]
+> **AI Disclosure:** This document was created with the assistance of Artificial Intelligence language models. The content has been reviewed, edited, and validated by a human author to ensure accuracy and quality.
