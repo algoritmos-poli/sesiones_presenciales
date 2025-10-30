@@ -2,7 +2,6 @@
 # threesum.py
 #-----------------------------------------------------------------------
 
-import stdio
 from stopwatch import Stopwatch
 
 def readInt1D(filename):
@@ -54,7 +53,7 @@ def countTriples(a):
 # the count is low, then also write the triples.
 
 def main():
-    file = "2Kints.txt"
+    file = "1Kints.txt"
     print(f"Leyendo datos del archivo: {file}")    
     a = readInt1D(file)    
     print(f"Arreglo de {len(a)} enteros leído.")
