@@ -4,19 +4,20 @@ def selection_sort_inst(arr):
     n = len(arr)    
     for i in range(n-1):
         min_idx = i
-        print(f"- pasada [{i + 1}]: {arr}")     
-        for j in range(i+1,n):
-            print(f"{arr}: [min_index = {min_idx}] ", end = " ")
+        print(f"- pasada [{i + 1}]: sel = {arr[i]} - min_index = {min_idx}")     
+        for j in range(i+1,n):            
             if arr[j] < arr[min_idx]:
-                min_idx = j 
-                print(f"-> swap: [min_index = {min_idx}]",end = " ")        
-            print()
-        arr[i], arr[min_idx] = arr[min_idx], arr[i]     
+                min_idx = j                      
+            print(f"comparacion: ({arr[j]},{arr[min_idx]}) -> min_index = {min_idx} ")
+        arr[i], arr[min_idx] = arr[min_idx], arr[i] 
+        print(f"arr[{i}] <-> arr[{min_idx}] -> [{arr[i]}] <-> [{arr[min_idx]}] -> {arr}")    
         print("-" * 60)    
     print(f"end -> arr: {arr}")
     print("=" * 60)
     return arr
 
 L_original = [29,10,14,37,13]
-# L_ordenada = bubble_sort(L_original)
 L_ordenada = selection_sort_inst(L_original[:])
+
+print(f"Arreglo original (desordenado): {L_original}")
+print(f"Arreglo resultante (ordenado): {L_ordenada}")

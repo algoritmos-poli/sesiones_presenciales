@@ -20,6 +20,7 @@ def insertion_sort_inst(arr):
 L_original = [29,10,14,37,13]
 L_ordenada = insertion_sort_inst(L_original[:])
 
-
-print(f"Arreglo original (desordenado): {L_original}")
-print(f"Arreglo resultante (ordenado): {L_ordenada}")
+print("--------------- Resultado --------------------")
+print(f"Lista original: {L_original}")
+print(f"Lista ordenada: {L_ordenada}")
+print("----------------------------------------------")
